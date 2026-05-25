@@ -1,1 +1,2 @@
+# Trailing Zeros (CSES Intro)
 I learned that factorials can get way too large to fully calculate directly, so it is much more efficient to count trailing zeros mathematically instead of multiplying everything out. I realized that trailing zeros come from 2*5 = 10. Since factorials naturally contain way more multiples of 2 than 5, the real thing you need to count is how many times 5 appears in the factorization of n!.
