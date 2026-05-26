@@ -1,1 +1,2 @@
+# Coin Piles (CSES Intro)
 There were two important conditions to check whether the case was possible or not. The first was obvious to me: that (a + b) % 3 had to equal 0. The second condition was less obvious, but I figured out that a and b could not be too far apart from each other in order for the case to work. Specifically, the max of a and b could not be more than 2 times the minimum of a and b, or else one side would completely run out of coins too early.
