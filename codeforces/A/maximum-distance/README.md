@@ -1,4 +1,4 @@
-# Maximum Distance (A)
+# Maximum Distance (Codeforces A)
 
 ## Approach I took
 

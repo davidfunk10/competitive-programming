@@ -1,4 +1,4 @@
-# Two Knights (CSES)
+# Two Knights (CSES Intro)
 
 ## Approach I took
 - First, I thought about the brute force approach where I would check every possible pair of knight placements on the board.

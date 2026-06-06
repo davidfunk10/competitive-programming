@@ -1,1 +1,2 @@
+# Number Spiral (CSES Intro)
 For this problem, I made the observation that for each layer of this square, the top-right corner had `layer²` if the layer was odd, and the bottom-left corner had `layer²` if it was even. From there, I went on to notice that values increased or decreased depending on whether the x or y value was the layer. Then, I condensed these observations into a formula for each case. Something tricky for me on this problem was understanding how the array was formatted with a base index of 1 instead of 0.
