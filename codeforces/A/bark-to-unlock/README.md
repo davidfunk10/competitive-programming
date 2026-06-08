@@ -1,0 +1,3 @@
+# Bark To Unlock (Codeforces B)
+
+I learned that since all the strings only had two characters, all I had to do to check if the dog could bark the password is check whether the first letter of the password was the last char in any of the words the dog knew and whether the last char of the password was the first letter of any of the words the dog knew. I also had to consider the edge case where the dog spoke the password itself.

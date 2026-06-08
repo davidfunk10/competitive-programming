@@ -1,0 +1,3 @@
+# Fafa and The Gates (Codeforces B)
+
+In this problem, I learned that on the line `y = x`, the only way you can cross it is by incrementing y two times in a row or incrementing x two times in a row, assuming you start at `(0,0)` and you are incrementing by one each time. Discovering this fact allowed me to create an algorithm to keep track of the amount of times Fafa needed to pay gate fees to switch kingdoms.
