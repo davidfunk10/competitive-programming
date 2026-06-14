@@ -1,0 +1,3 @@
+# Bucket Brigade (USACO Bronze)
+
+This problem helped me understand that Manhattan distance does not always work by itself when obstacles are present. I first calculated the Manhattan distance between the barn and the lake, and then I checked whether the rock was directly between them on the same row or column. If it was, I had to add 2 to account for the two extra steps that had to be taken to get around the rock.
