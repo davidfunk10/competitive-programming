@@ -1,0 +1,3 @@
+## Square Pasture (USACO Bronze)
+
+I solved this problem by finding the minimum and maximum values of the appropriate coordinates from the two given pastures. This problem helped me understand how finding the outer boundaries of a shape can be useful because subtracting the minimum and maximum coordinates creates actual side lengths that you can work with. This was helpful for determining the dimensions of the square that contained both pastures.
