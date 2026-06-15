@@ -1,0 +1,3 @@
+## Blocked Billboard 2 (USACO Bronze) 
+
+For this problem, I distinguished the two billboards as front billboard and back billboard. Then, I seperated the cases of overlap into three different cases, depending on how many corners of the back billboard were underneath the front billboard. Then I just calculated the respective areas for each case and outputted a corresponding answer. This problem helped me improve my casework skills.

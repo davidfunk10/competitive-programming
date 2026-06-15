@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+    freopen("billboard.in", "r", stdin);
+    freopen("billboard.out", "w", stdout);
     bool ray[2000][2000] {};
 
     for(int i = 0; i<3; i++)
