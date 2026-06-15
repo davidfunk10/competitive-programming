@@ -1,0 +1,3 @@
+## Blocked Billboard (USACO Bronze)
+
+For this problem, I made an array of 2000 by 2000 to represent all possible squares in the problem. I set the array equal to `true` for all billboard squares, and then I overrode certain ones by setting all truck squares equal to `false`. One major conceptual switch I had to make for this problem was thinking about each point in the array as representing a `1x1` square space to its bottom right.
