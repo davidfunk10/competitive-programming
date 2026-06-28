@@ -1,0 +1,3 @@
+## Guess the Animal (USACO Bronze)
+
+For this brute force problem, I utilized a 2D vector called animals, where I stored each animal and each animal's characteristics in a vector inside that vector. Then, I practiced pair by pair iteration to find maximum number of common characteristics between any pair. Using logic, I deduced that it would take the maximum number of common characteristics between any pair + 1 number of guesses to get to the final answer because the max by itself would just exhaust all the common traits, but you need one more guess to eliminate the wrong animal.
