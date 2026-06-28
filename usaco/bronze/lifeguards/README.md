@@ -1,0 +1,3 @@
+## Lifeguards (USACO Bronze)
+
+For this brute force problem, I created an integer `times` array of size 1000 to essentially store overlap of time units worked by different cows. There were `n` cows, per usual, so after I read in input, I looped through each cow and fired each one. Then, I checked how many time slots were still being in use by each non-fired lifeguard. I make sure that this number is a maximum. Finally, I rehire the cow and repeat for all cows. This problem helped me deepen my understanding of bruteforce problems. This is a type of problem I especially enjoy.

@@ -1,0 +1,3 @@
+## Cow Gymnastics (USACO Bronze)
+
+For this complete search problem, utilized two arrays, `rankings` and `abeatsb`. `Rankings` held the order of cows for each trial, and `abeatsb` was an `nXn` array that keeps track of how many times cow a danced better than cow b over all gymnastic sessions, where `n` is the number of cows. If a certain cow did better than another cow in all `k` gymnastic sessions, then I added 1 to `ans` and then outputted it. I enjoy this type of problem more than coordinate geometry. This was a good problem, and it helped increase my understanding of how to use arrays in real world problems. I'm excited to continue progressing.
