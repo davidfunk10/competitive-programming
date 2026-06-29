@@ -1,0 +1,3 @@
+## Contaminated Milk (USACO Bronze)
+
+For this brute force problem, I kept track of people, milk types, and drink times by using arrays indexed at position `d`, given by the problem. I also kept track of people who got sick and when they got sick based on position s, also given by the problem. With this information stored, I could essentially loop through every milk type and see if it has the possibility of being a bad milk by seeing if every sick person drank it before they became sick. If milk `mi` has the possibility of being the bad milk, I look to see how many people drank that milk in total. This becomes the answer unless another potentially bad milk yields a higher number of people that drank it.
