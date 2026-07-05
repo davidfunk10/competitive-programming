@@ -1,0 +1,3 @@
+## Apple Division (CSES Intro)
+
+For this recursion problem, I created a void complete search with recursion function to check the difference between every possible subset of weights of apples. I used the fact that for every element you can choose whether or not to include it to create the subsets. I kept track of the smallest difference over all possible subsets of apple weights and then printed it out at the end.

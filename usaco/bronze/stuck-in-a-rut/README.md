@@ -1,0 +1,3 @@
+## Stuck In A Rut (USACO Bronze)
+
+This was a very challenging coordinate geometry problem for me. When I initially solved it, I mistakenly ignored the fact that cows stop moving once they are cut off by another cow. This required me to simulate the situation chronologically by sorting the vector of East cows by their Y coordinates and by sorting the North cows by their x coordinates. This way, when I looped through every North Cow for every East cow, every collision happened in chronological order, and I therefore did not need to worry about "ghost cows." This problem also helped me improve my C++ syntax abilities.
