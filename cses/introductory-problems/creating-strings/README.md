@@ -1,0 +1,3 @@
+## Creating Strings (CSES Intro)
+
+For this recursion problem, I created a recusive function `search` so that I could loop through all possible characters in the `charsleft` array to find alphabetical permutations. This problem helped me practice recursive bactracking(which I struggled with on this problem) and letter-character conversions using ASCII. Although they can sometimes be tricky, I very much enjoy these recursive type problems.
