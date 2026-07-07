@@ -1,0 +1,3 @@
+## Livestock Lineup (USACO Bronze)
+
+For this complete search problem, I looped through all possible permutations of the 8 cows in alphabetical order, using the `next_permutation` function and a `do-while` loop to include all permutations. Then, I looped through a vector of all the restrictions given by the problem to test to see if they were met or not for each next lowest alphabetical permutation. If they were all met, then I exited the `do-while` loop and printed out the current permutation of the `cows` vector. This problem helped me understand how to use the `auto` keyword when finding strings in vectors, and it also helped me learn how to use the `break` keyword better and the subtle implications that it has.
