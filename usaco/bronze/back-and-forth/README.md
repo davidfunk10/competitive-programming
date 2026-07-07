@@ -1,0 +1,3 @@
+## Back and Forth (USACO Bronze)
+
+For this complete search recursion problem, I used a recursive function `solve` to loop through all possible ways of taking the buckets from `barn 1` to `barn 2`. For each way, I added the end amount of milk in the tank of barn 1 to set `possible`. This way, there would be no duplicate amounts. Finally, I outputted the size of set `possible` after the recursive function finished. This problem helped me understand that using `here` and `there` to label variables can be a helpful trick for recursion in problems that have alternating situations.
