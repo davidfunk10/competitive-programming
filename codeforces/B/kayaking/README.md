@@ -1,0 +1,3 @@
+## Kayaking (Codeforces B)
+
+For this sorting problem, I looped through all possible pairs of 2 distinct people and made them be in their own kayaks. This way, I could sort the weights of the rest of the people from least to greatest and pair the people who had their weights closest together with each other. I kept track of the total difference between every pair of adjacent weights for each pair of single kayak riders and found out which pair of single kayak riders resulted in the lowest total `instability`. Finally, I simply outputted the lowest possible instability.
