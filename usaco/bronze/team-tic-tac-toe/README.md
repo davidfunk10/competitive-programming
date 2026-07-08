@@ -1,0 +1,3 @@
+## Team Tic Tac Toe (USACO Bronze)
+
+For this implementation problem, I simply created two sets--one to hold individual winners and one to hold team winners. Then, I looked through each row, column, and diagnol to find ones where only one or two different chars appear. I added them to the `indwinners` and `teamwinners` sets, respectively. This problem taught me the power of using sets for handling duplication issues, and it also taught me how to deference pointers using `*` while accessing elements of a set.
