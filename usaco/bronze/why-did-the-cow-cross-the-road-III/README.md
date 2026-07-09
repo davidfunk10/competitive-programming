@@ -1,0 +1,3 @@
+## Why Did the Cow Cross the Road III (USACO Bronze)
+
+For this sorting simulation problem, I created a vector of pairs to store the time each cow entered the queue and how long they take to answer Farmer John's questions. Then, I sorted the vector based on the the time that the cows arrived at the queue. This way, I could loop through each cow and simulate a queue just like the problem described. Basically, I created a `curtime` variable that stores the current time after each cow is processed. Finally, I outputted `curtime`. This problem helped me understand queues better, and it helped me practice sorting vectors of pairs.

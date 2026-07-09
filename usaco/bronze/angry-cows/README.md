@@ -1,0 +1,3 @@
+## Angry Cows (USACO Bronze)
+
+For this bronze problem, I looped through all possible starting bales and then ran a helped function `countexp` for each one. The `countexp` function used a while loop to count all possible explosions given a start index and a direction for any bale. This problem helped me understand more deeply how to use `next` and `prev` variables to write clean code for simulations like this.
