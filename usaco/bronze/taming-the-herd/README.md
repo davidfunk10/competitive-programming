@@ -1,0 +1,3 @@
+## Taming The Herd (USACO Bronze)
+
+For this ad hoc problem, looping backwards through the breakout counters was a major help. Creating a tracker variable `t` for this problem helped me track the contradictions on the breakout counters because it helped me find descrepencies between my countdown variable and what was actually on the breakout counter for a given day. I counted the minimums by counting guarenteed zeros and maximums both on zeros and ambiguous -1 days. The main difficulty I had with this problem was structuring the if-statement logic in the right order so it flowed correctly, but I eventually managed to get it. There was a relatively high amount of edge cases on this problem, so it was harder than it first appeared.  

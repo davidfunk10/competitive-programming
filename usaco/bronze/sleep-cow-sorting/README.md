@@ -1,0 +1,3 @@
+## Sleepy Cow Sorting (USACO Bronze)
+
+For this ad hoc problem, I noticed that the intial cows could be treated as two arrays, one unsorted and one sorted. All you have to do is move the unsorted cows into the already sorted cows 1 by 1 so that all cows will be sorted. The amount of moves this takes is simply the length of the array minues the length of the already sorted array. I used a simple for loop to iterate throught the array backwards to find this length.
