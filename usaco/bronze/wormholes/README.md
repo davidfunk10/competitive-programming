@@ -1,0 +1,3 @@
+## Wormholes (USACO Bronze)
+
+For this recursion problem, I created a `genpairs()` function that increments `tup` for every pair arrangement where Bessie gets stuck in an infinite loop. A key strategy I used was initializing the `partner` and `nextonright` vectors. These helped me simulatea Bessie traversing the wormholes for each different pair arrangement. Overall, this problem helped me deepen my understanding of recursive backtracking and recursion in general. I'm excited to keep learning more!

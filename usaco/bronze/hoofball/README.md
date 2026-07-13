@@ -1,0 +1,3 @@
+## Hoofball (USACO Bronze)
+
+For this ad hoc problem, I noticed that each cow only passed a ball to one other cow. After sorting the locations of the cows, this was an incredibly helpful observation because I could simpply count how many balls each cow possibly could receive based on where each cow passes to. Then I made the observation that if two cows only passed to themselves, this created an "island", where a ball would be neccessary to give the island. Also, if no cow passes a ball to a certain cow, in other words, if that cow has 0 possible receives, then that cow is also an "island" that needs its own ball. After that I simply counted the number of islands and outputted the answer. This problem definetly pushed me to think more creatively.
