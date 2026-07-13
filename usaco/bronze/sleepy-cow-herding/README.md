@@ -1,0 +1,3 @@
+## Sleepy Cow Herding (USACO Bronze)
+
+For this ad hoc problem, I wrote down my observations until I eventually noticed that the minimum number of moves to get all the cows in a consequtive line will always be less than `3` since the toal number of cows is `3`. I also noticed that the maximum number of moves with always be the distance of the largest gap between the two outside pairs(the smallest number pairing with the middle and the largest number pairing with the middle). To compute this, I simply found the largest gap of b-a and c-b and then subtracted `1`. This problem helped me understand gaps better and the nuances of inclusivity and exclusivity.
