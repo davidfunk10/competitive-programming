@@ -1,0 +1,3 @@
+## Family Tree (USACO Bronze)
+
+This problem was one of the hardest problems I have ever solved due to the brutal case handling. Basically, I added all mother cows into a mother vector and then all daughter cows into a daughter vector. After that, I populated vectors of all the ancestors of cowx and all the ancestors of cowy, practicing converting iterators to indexes. If cowx and cowy had a common ancestor, I used a series of nested if statements to determine the exact relationship between cowx and cowy, based on how close cowy and cowx were to the ancestor cow.
