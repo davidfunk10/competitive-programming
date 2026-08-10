@@ -1,0 +1,3 @@
+## Subsequences Summing to Sevens (USACO Silver)
+
+For this silver problem, I initially thought I should use a `O(N^2)` algorithm to track the longest streak of numbers when modded by 7 was zero. This approach was too slow--by about a factor of 25. So instead, I used prefix sums, a concept I'm working on right now. I basically created a `firstseen` vector and a `lastseen` vector that tracked the longest streak of id's that mod to 7 in O(n) time, utilizing the fact that when you come across a remainder that you have already seen before in the line of prefix sums, the numbers between the indexes of the two remainder sum to a multiple of 7. 
